@@ -47,4 +47,12 @@ switch (valorComparendo) {
         break;
 }
 
+if (realizoCurso === S && diasHabiles <= 5) {
+    let porcentajeDescuento = infraccionA - descuentoCurso 
+} else if (otraCondicion) {
+    // Se ejecuta si la primera es falsa y esta es verdadera
+} else {
+    // Se ejecuta si ninguna condición se cumple
+}
+
 
