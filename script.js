@@ -20,8 +20,5 @@ let tipoInfraccion = prompt("¿Cuál es su tipo de infracción? (A,B,C)");
 let realizoCurso = prompt("¿Realizó el curso?\n Escriba \n S: Si realizó el curso \n N: No realizó el curso");
 let diasHabiles = prompt("¿Hace cuántos días hábiles le pusieron la infracción?")
 
-// Procesos de cálculo 
-
-
 
 
