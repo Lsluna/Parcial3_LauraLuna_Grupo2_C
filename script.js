@@ -20,20 +20,14 @@ let tipoInfraccion = prompt("¿Cuál es su tipo de infracción? (A,B,C)");
 let realizoCurso = prompt("¿Realizó el curso?\n Escriba \n S: Si realizó el curso \n N: No realizó el curso");
 let diasHabiles = prompt("¿Hace cuántos días hábiles le pusieron la infracción?")
 
-// Variables de entrada
-
-let tipoInfraccion = prompt("¿Cuál es su tipo de infracción? (A,B,C)");
-let realizoCurso = prompt("¿Realizó el curso?\n Escriba \n S: Si realizó el curso \n N: No realizó el curso");
-let diasHabiles = prompt("¿Hace cuántos días hábiles le pusieron la infracción?")
-
 // Procesos de cálculo 
 
-if (tipoInfraccion !== "A" || tipoInfraccion !== "B" || tipoInfraccion !== "C")  {
-alert ("Tipo de infracción no válida. Seleccione entre (A,B,C)")
-} else if (realizoCurso !== "S" || realizoCurso !== "N") {
-alert ("Valor ingresado no válido. Escriba S o N")
+if (tipoInfraccion !== A || tipoInfraccion !== B || tipoInfraccion !== C)  {
+alert ("Tipo de infracción no válida. Seleccione entre (A,B,C)");
+} else if (realizoCurso !== S || realizoCurso !== N) {
+alert ("Valor ingresado no válido. Escriba S o N");
 } else if (NaN(diasHabiles) || diasHabiles < 1) {
-alert ("Valor de días hábiles no válido. Escriba un número mayor a 1")    
+alert ("Valor de días hábiles no válido. Escriba un número mayor a 1");    
 }
 
 let valorComparendo = 0
@@ -53,4 +47,3 @@ switch (valorComparendo) {
         break;
 }
 
-//Test
